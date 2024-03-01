@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Idroid';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+    /* Adicione outras variações da fonte, se disponíveis (como bold, italic, etc.) */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00ff6a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #00ff6a, #005021);
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+header > p {
+    
+    padding: 10px;
+    margin: 10px;
+    margin-left: 10px;
+}
+
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.corpo2 {
+    background-color: white;
+    text-align: center;
+    padding: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.corpo2 > h1 {
+    background-color: #ffffff;
+    font-family: 'Idroid', Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 10px;
+    padding: 0px;
+}
+
+.corpo2 > p {
+    background-color: #ffffff;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 0px;
+    text-align: left;
+}
+
+nav > p {
+    margin: 0;
+    text-indent: 20px;
+    text-align: left;
+}
+
+nav > h1 {
+    text-decoration: none;
+    font-family: 'Idroid', Arial, Helvetica, sans-serif;
+}
+
+
+
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+.video {
+    background-color: #005021;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    height: 100vh; /* Para centralizar verticalmente */
+}
+ 
+.mais {
+    background: #fffffc;
+    text-align: center;
+    padding: 10px; /* Adicionando preenchimento interno */
+    margin: 100px; /* Adicionando margem externa */
+    margin-top: 0;
+}
+
+.mais > h3 {
+    background-color: #04af4b;
+    color: #fffffc;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    
+}
+
+.mais > p {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.listas{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.listas li {
+    width: calc(50% - 20px); /* Cada item ocupa metade da largura com um espaço */
+    margin-bottom: 10px; /* Espaço entre os itens */
+    display: flex;
+}
+
+.correto {
+    margin-right: 5px; /* Espaço entre o símbolo e o texto */
+}
+
+
